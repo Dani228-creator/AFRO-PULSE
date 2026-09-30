@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DANIPOPi — Next Wave | AFRO PULSE</title>
+
+    <meta
+        name="description"
+        content="Discover the next generation of African artists on AFRO PULSE."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="danipopi.css">
+</head>
+
+<body>
+
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div id="particles"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            <span>AFRO</span> PULSE
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="music.html">Music</a>
+            <a href="news.html">News</a>
+            <a href="artists.html">Artists</a>
+            <a href="shorts.html">Shorts</a>
+            <a href="danipopi.html" class="active">DANIPOPi</a>
+        </nav>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    ✦ AFRO PULSE PRESENTS
+                </span>
+
+                <h1>
+                    DANIPOPi
+                    <span>NEXT WAVE</span>
+                </h1>
+
+                <p>
+                    Discover the new voices, fresh sounds and rising stars
+                    shaping the next generation of African music.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#artists" class="btn primary">
+                        Discover Artists
+                    </a>
+
+                    <a href="#submit" class="btn secondary">
+                        Submit Your Music
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-art">
+
+                <div class="circle circle-one"></div>
+                <div class="circle circle-two"></div>
+
+                <div class="record">
+                    <div class="record-center">D</div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Featured Artist -->
+        <section class="featured">
+
+            <div class="section-heading">
+                <span>FEATURED</span>
+                <h2>Artist of the Moment</h2>
+            </div>
+
+            <div class="featured-card">
+
+                <div class="featured-image">
+                    <div class="image-placeholder">
+                        ARTIST
+                    </div>
+                </div>
+
+                <div class="featured-info">
+
+                    <span class="country">
+                        🇳🇬 NIGERIA
+                    </span>
+
+                    <h2>YOUR ARTIST HERE</h2>
+
+                    <p>
+                        A fresh voice with a unique sound ready to make
+                        an impact on the African music scene.
+                    </p>
+
+                    <div class="artist-stats">
+                        <div>
+                            <strong>12K</strong>
+                            <small>Listeners</small>
+                        </div>
+
+                        <div>
+                            <strong>8</strong>
+                            <small>Releases</small>
+                        </div>
+
+                        <div>
+                            <strong>24K</strong>
+                            <small>Views</small>
+                        </div>
+                    </div>
+
+                    <button class="listen-btn">
+                        ▶ Listen Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Artists -->
+        <section class="artists" id="artists">
+
+            <div class="section-heading">
+
+                <div>
+                    <span>THE NEXT GENERATION</span>
+                    <h2>Upcoming Artists</h2>
+                </div>
+
+                <div class="filters">
+
+                    <button class="filter active" data-country="all">
+                        All
+                    </button>
+
+                    <button class="filter" data-country="nigeria">
+                        🇳🇬 Nigeria
+                    </button>
+
+                    <button class="filter" data-country="ghana">
+                        🇬🇭 Ghana
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="artist-grid">
+
+                <!-- Artist 1 -->
+                <article class="artist-card" data-country="nigeria">
+
+                    <div class="artist-image">
+                        <span>ARTIST 01</span>
+
+                        <button class="play-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class="artist-details">
+
+                        <div>
+                            <span class="country">🇳🇬 NIGERIA</span>
+                            <h3>Artist Name</h3>
+                        </div>
+
+                        <span class="genre">
+                            Afrobeats
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Fresh sound. Fresh energy. One to watch.
+                    </p>
+
+                </article>
+
+
+                <!-- Artist 2 -->
+                <article class="artist-card" data-country="ghana">
+
+                    <div class="artist-image">
+                        <span>ARTIST 02</span>
+
+                        <button class="play-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class="artist-details">
+
+                        <div>
+                            <span class="country">🇬🇭 GHANA</span>
+                            <h3>Artist Name</h3>
+                        </div>
+
+                        <span class="genre">
+                            Afro Fusion
+                        </span>
+
+                    </div>
+
+                    <p>
+                        Bringing a different sound to the next wave.
+                    </p>
+
+                </article>
+
+
+                <!-- Artist 3 -->
+                <article class="artist-card" data-country="nigeria">
+
+                    <div class="artist-image">
+                        <span>ARTIST 03</span>
+
+                        <button class="play-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class="artist-details">
+
+                        <div>
+                            <span class="country">🇳🇬 NIGERIA</span>
+                            <h3>Artist Name</h3>
+                        </div>
+
+                        <span class="genre">
+                            Afropop
+                        </span>
+
+                    </div>
+
+                    <p>
+                        A new voice with a sound worth discovering.
+                    </p>
+
+                </article>
+
+
+                <!-- Artist 4 -->
+                <article class="artist-card" data-country="ghana">
+
+                    <div class="artist-image">
+                        <span>ARTIST 04</span>
+
+                        <button class="play-button">
+                            ▶
+                        </button>
+                    </div>
+
+                    <div class="artist-details">
+
+                        <div>
+                            <span class="country">🇬🇭 GHANA</span>
+                            <h3>Artist Name</h3>
+                        </div>
+
+                        <span class="genre">
+                            Highlife
+                        </span>
+
+                    </div>
+
+                    <p>
+                        New generation. New movement.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Why Section -->
+        <section class="why">
+
+            <span>THE MOVEMENT</span>
+
+            <h2>
+                We don't just find artists.
+                <span>We find the future.</span>
+            </h2>
+
+            <p>
+                DANIPOPi — Next Wave is a space for undiscovered talent
+                from Nigeria, Ghana and beyond to introduce their sound
+                to a wider audience.
+            </p>
+
+        </section>
+
+
+        <!-- Submission -->
+        <section class="submit" id="submit">
+
+            <div>
+
+                <span>ARE YOU NEXT?</span>
+
+                <h2>
+                    Your sound deserves
+                    to be heard.
+                </h2>
+
+                <p>
+                    Submit your music and introduce yourself to the
+                    AFRO PULSE community.
+                </p>
+
+            </div>
+
+            <button id="submitBtn" class="btn primary">
+                Submit Your Music →
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-logo">
+            AFRO <span>PULSE</span>
+        </div>
+
+        <p>
+            Discover the next wave of African music.
+        </p>
+
+        <small>
+            © 2026 AFRO PULSE. All rights reserved.
+        </small>
+
+    </footer>
+
+
+    <!-- Toast -->
+    <div id="toast" class="toast">
+        Music submission will be available soon.
+    </div>
+
+    <script src="danipopi.js"></script>
+
+</body>
+</html>
