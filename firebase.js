@@ -5,7 +5,7 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/12.3.0/firebase
 
 const firebaseConfig = {
 
-    apiKey: "YOUR_API_KEY",
+    apiKey: "AIzaSyBsJGcGiE2MYqoAJIh99ASiJZHnjacvUYo",
 
     authDomain: "afro-pulse.firebaseapp.com",
 
